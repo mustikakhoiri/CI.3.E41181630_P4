@@ -58,6 +58,8 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
+
+//mengaktifkan library database agar fungsi-fungsi database bisa digunakan
 $autoload['libraries'] = array('database');
 
 /*
@@ -89,6 +91,8 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
+
+//mengaktifkan atau memanggil helper di autoload agar tidak perlu mengaktifkan di controller
 $autoload['helper'] = array('url');
 
 /*

@@ -50,5 +50,4 @@ class Kontak extends REST_Controller {
 2.	Untuk mengecek penggunaannya, dapat dilakukan dengan menggunakan postman
 
 
-
-  
+![](img/1.png)

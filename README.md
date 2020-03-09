@@ -47,4 +47,6 @@ class Kontak extends REST_Controller {
         $this->response($kontak, 200);
     }```
 
+
+
 2. Untuk mengecek keberhasilannya, dapat dilakukan dengan menggunakan method Get, Post, Put, dan Delete pada aplikasi Postman.

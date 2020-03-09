@@ -45,7 +45,8 @@ class Kontak extends REST_Controller {
             $kontak = $this->db->get('telepon')->result();
         }
         $this->response($kontak, 200);
-    }```
+    }
+```
 
 
 
